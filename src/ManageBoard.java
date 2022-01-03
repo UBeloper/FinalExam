@@ -26,6 +26,8 @@ public class ManageBoard {
  			}
 		}
 		
+		
+		
 		public boolean removeBoard(int bNum) {
 			for(int i = 0; i < boardList.size(); i++) {
 				Board board = boardList.get(i);
